@@ -1,0 +1,42 @@
+---
+name: Bug Report
+description: File a bug report
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: textarea
+    attributes:
+      label: Description
+      description: A clear and concise description of what the bug is
+      placeholder: "Describe the bug here..."
+      validations:
+        required: true
+  - type: textarea
+    attributes:
+      label: Steps to Reproduce
+      description: Steps to reproduce the behavior
+      placeholder: "1. Go to...\n2. Click on...\n3. See error..."
+      validations:
+        required: true
+  - type: input
+    attributes:
+      label: Discord Version
+      description: Version of Discord you're using
+      placeholder: "e.g., 1.0.0"
+      validations:
+        required: false
+  - type: input
+    attributes:
+      label: Vencord Version
+      description: Version of Vencord you're using
+      placeholder: "e.g., 1.0.0"
+      validations:
+        required: false
+  - type: input
+    attributes:
+      label: Manycord Setting
+      description: The maxAccounts setting value
+      placeholder: "e.g., 0 for unlimited"
+      validations:
+        required: false
+...

@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+        "target": "ES2022",
+        "module": "ESNext",
+        "moduleResolution": "bundler",
+        "strict": true,
+        "esModuleInterop": true,
+        "skipLibCheck": true,
+        "forceConsistentCasingInFileNames": true,
+        "resolveJsonModule": true,
+        "declaration": false,
+        "types": ["node"],
+        "paths": {
+            "@api/*": ["./stubs/api/*"],
+            "@utils/*": ["./stubs/utils/*"]
+        }
+    },
+    "include": ["**/*.ts", "./stubs/**/*.d.ts"],
+    "exclude": ["node_modules"]
+}

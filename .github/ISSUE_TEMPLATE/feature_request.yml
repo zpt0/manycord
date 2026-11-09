@@ -1,0 +1,35 @@
+---
+name: Feature Request
+description: Request a new feature
+title: "[Feature] "
+labels: ["feature"]
+body:
+  - type: textarea
+    attributes:
+      label: Description
+      description: A clear and concise description of the requested feature
+      placeholder: "Describe the feature here..."
+      validations:
+        required: true
+  - type: textarea
+    attributes:
+      label: Use Case
+      description: Explain why this feature is needed
+      placeholder: "Explain the problem being solved..."
+      validations:
+        required: true
+  - type: input
+    attributes:
+      label: Discord Version
+      description: Version of Discord you're using
+      placeholder: "e.g., 1.0.0"
+      validations:
+        required: false
+  - type: input
+    attributes:
+      label: Vencord Version
+      description: Version of Vencord you're using
+      placeholder: "e.g., 1.0.0"
+      validations:
+        required: false
+...

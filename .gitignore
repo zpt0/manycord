@@ -1,0 +1,45 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+*.tsbuildinfo
+
+# Vencord build problem - generated from tsconfig.template.json
+tsconfig.json
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+ehthumbs.db
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.code-workspace
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment / Secrets
+.env
+.env.local
+.env.*.local
+
+# Misc
+*.tgz
+*.tmp
+*.temp
+.cache/
+
+# Local helper scripts (never commit)
+create_release.ps1
+RELEASE_NOTES.md
